@@ -1,0 +1,28 @@
+Package: dmpredict
+Title: Apply Prediction Equations Between FPG and HbA1c Developed By NCD-RisC
+Version: 1.0.0
+Authors@R: 
+    person("Bin", "Zhou", , "b.zhou13@imperial.ac.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-1741-8628"))
+Description: This package provides a function that applies the prediction
+    equations developed in "NCD Risk Factor Collaboration (NCD-RisC). Nature
+    Medicine 2024; 29:2885-2901" that convert FPG to probability of having
+    HbA1c ≥6.5% and convert HbA1c to probability of having FPG ≥7.0 mmol/L.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+	arm (>= 1.13-1),
+	dataPreparation (>= 1.1.1),
+	matrixStats (>= 1.0.0),
+	dplyr,
+	tidyr,
+	here
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
