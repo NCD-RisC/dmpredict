@@ -71,7 +71,7 @@ To install the package, use:
 library(dmpredict)
 
 # Make sure 'data' object has the minimum columns as stated above
-
+# data <- readRDS("input_data.RDS")
 df <- transform_data(data)
 
 # Predict_missing_fpg or hba1c functions return a probability that the predicted biomarker
