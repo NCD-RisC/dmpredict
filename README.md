@@ -23,28 +23,28 @@ diagnosis and prevalence based on fasting glucose and hemoglobin A1c.
 
 The users must provide at least one of the following:
 
-- `fpg_clean` cleaned FPG (mmol/L).
-- `hba1c_clean` cleaned HbA1c (%).
+- `fpg_clean` cleaned FPG (mmol/L)
+- `hba1c_clean` cleaned HbA1c (%)
 
 Plus the following required predictors:
 
-- `sex` coded as “female” and “male”.
+- `sex` coded as “female” and “male”
 - `age` in years (current models have only been tested in adults aged
-  18+ years).
-- `study_id` unique identifier for each study (or study round).
+  18+ years)
+- `study_id` unique identifier for each study (or study round)
 - `iso` [ISO alpha-3
   code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) for the
-  country the study was conducted in.
+  country the study was conducted in
 - `medication` whether using medication for diabetes, coded as 1 = yes,
-  0 = no, NA = missing.
+  0 = no, NA = missing
 
 Optional covariates for prediction:
 
-- `bmi_clean` cleaned body-mass index (kg/m<sup>2</sup>).
+- `bmi_clean` cleaned body-mass index (kg/m<sup>2</sup>)
 - `handheld_fpg` how FPG was measured, coded as 1 = using a POC handheld
-  device, 0 = lab based measurement, NA = unknown.
+  device, 0 = lab based measurement, NA = unknown
 - `handheld_a1c` how HbA1c was measured, coded as 1 = using a POC
-  handheld device, 0 = lab based measurement, NA = unknown.
+  handheld device, 0 = lab based measurement, NA = unknown
 
 If `iso` is not recognized, provide a string with one of the following
 in a variable named `Superregion`:
