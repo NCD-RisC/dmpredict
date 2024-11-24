@@ -15,10 +15,17 @@ equations are generalised linear mixed models fitted with package
 coefficients to allow estimation of the uncertainty associated with the
 prediction equations.
 
-<span style="background-color:#f3f3f3">NCD Risk Factor Collaboration
-(NCD-RisC). Global variation in diabetes diagnosis and prevalence based
-on fasting glucose and hemoglobin A1c. *Nature Medicine* 2023; **29**:
-2885-2901.</span>
+<style>
+div.citation { background-color:#f7f7f7; padding-left:15pt; padding-top:15pt; padding-bottom:5pt; padding-right:15pt; }
+</style>
+
+<div class="citation">
+
+NCD Risk Factor Collaboration (NCD-RisC). Global variation in diabetes
+diagnosis and prevalence based on fasting glucose and hemoglobin A1c.
+*Nature Medicine* 2023; **29**: 2885-2901.
+
+</div>
 
 ## Usage
 
@@ -63,7 +70,9 @@ in a variable named `Superregion`:
 
 To install the package, use:
 
-`remotes::install_github("NCD-RisC/dmpredict")`
+``` r
+remotes::install_github("NCD-RisC/dmpredict")
+```
 
 ## Example
 
