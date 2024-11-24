@@ -15,11 +15,7 @@ equations are generalised linear mixed models fitted with package
 coefficients to allow estimation of the uncertainty associated with the
 prediction equations.
 
-<style>
-div.citation { background-color:#f7f7f7; padding-left:15pt; padding-top:15pt; padding-bottom:5pt; padding-right:15pt; }
-</style>
-
-<div class="citation">
+<div style="background-color:#f7f7f7; padding-left:15pt; padding-top:15pt; padding-bottom:5pt; padding-right:15pt;">
 
 NCD Risk Factor Collaboration (NCD-RisC). Global variation in diabetes
 diagnosis and prevalence based on fasting glucose and hemoglobin A1c.
