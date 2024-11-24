@@ -38,7 +38,7 @@ Plus the following required predictors:
 
 Optional covariates for prediction:
 
-- `bmi_clean` cleaned body-mass index (kg/m2).
+- `bmi_clean` cleaned body-mass index (kg/m<sup>2</sup>).
 - `handheld_fpg` how FPG was measured, coded as 1 = POC handheld device,
   0 = lab based measurement, NA = unknown.
 - `handheld_a1c` how HbA1c was measured, coded as 1 = POC handheld
