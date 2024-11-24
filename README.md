@@ -18,6 +18,9 @@ prediction equations.
 NCD Risk Factor Collaboration (NCD-RisC). Global variation in diabetes
 diagnosis and prevalence based on fasting glucose and hemoglobin A1c.
 *Nature Medicine* 2023; **29**: 2885-2901.
+<https://doi.org/10.1038/s41591-023-02610-2>
+
+See also <https://zenodo.org/records/8169146>.
 
 ## Usage
 
@@ -46,7 +49,7 @@ Optional covariates for prediction:
 - `handheld_a1c` how HbA1c was measured, coded as 1 = using a POC
   handheld device, 0 = lab based measurement, NA = unknown
 
-If `iso` is not recognized, provide a string with one of the following
+If `iso` is not recognised, provide a string with one of the following
 in a variable named `Superregion`:
 
 - “Central and Eastern Europe”

@@ -19,7 +19,9 @@ knitr::opts_chunk$set(
 
 dmpredict is a package written to implement the prediction equations reported in `NCD Risk Factor Collaboration (2023)` to estimate the probability that an individual had HbA1c ≥6.5% based on measured fasting plasma glucose (FPG), and vice versa. The details of the statistical methods are provided in the citation below. In short, the prediction equations are generalised linear mixed models fitted with package `lme4`. The model objects in this package provide draws of the model coefficients to allow estimation of the uncertainty associated with the prediction equations.
 
-NCD Risk Factor Collaboration (NCD-RisC). Global variation in diabetes diagnosis and prevalence based on fasting glucose and hemoglobin A1c. *Nature Medicine* 2023; **29**: 2885-2901.
+NCD Risk Factor Collaboration (NCD-RisC). Global variation in diabetes diagnosis and prevalence based on fasting glucose and hemoglobin A1c. *Nature Medicine* 2023; **29**: 2885-2901. https://doi.org/10.1038/s41591-023-02610-2
+
+See also https://zenodo.org/records/8169146.
 
 ## Usage
 
@@ -42,7 +44,7 @@ Optional covariates for prediction:
 * `handheld_fpg` how FPG was measured, coded as 1 = using a POC handheld device, 0 = lab based measurement, NA = unknown
 * `handheld_a1c` how HbA1c was measured, coded as 1 = using a POC handheld device, 0 = lab based measurement, NA = unknown
 
-If `iso` is not recognized, provide a string with one of the following in a variable named `Superregion`:
+If `iso` is not recognised, provide a string with one of the following in a variable named `Superregion`:
 
 * "Central and Eastern Europe"
 * "Central Asia, Middle East and North Africa"
