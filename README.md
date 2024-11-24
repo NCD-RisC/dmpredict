@@ -32,7 +32,7 @@ Plus the following required predictors:
 - `age` in years (current models have only been tested in adults aged
   18+ years).
 - `study_id` unique identifier for each study (or study round).
-- `iso` [ISO-3 alpha
+- `iso` [ISO alpha-3
   code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) for the
   country the study was conducted in.
 - `medication` whether using medication for diabetes, coded as 1 = yes,
