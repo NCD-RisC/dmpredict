@@ -1,11 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# cwpredict
+# dmpredict
 
 ## Overview
 
-cwpredict is a package written to implement the prediction equations
+dmpredict is a package written to implement the prediction equations
 reported in `NCD Risk Factor Collaboration (2023)` to estimate the
 probability that an individual had HbA1c ≥6.5% based on measured fasting
 plasma glucose (FPG), and vice versa. The details of the statistical

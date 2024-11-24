@@ -13,11 +13,11 @@ knitr::opts_chunk$set(
 )
 ```
 
-# cwpredict
+# dmpredict
 
 ## Overview
 
-cwpredict is a package written to implement the prediction equations reported in `NCD Risk Factor Collaboration (2023)` to estimate the probability that an individual had HbA1c ≥6.5% based on measured fasting plasma glucose (FPG), and vice versa. The details of the statistical methods are provided in the citation below. In short, the prediction equations are generalised linear mixed models fitted with package `lme4`. The model objects in this package provide draws of the model coefficients to allow estimation of the uncertainty associated with the prediction equations.
+dmpredict is a package written to implement the prediction equations reported in `NCD Risk Factor Collaboration (2023)` to estimate the probability that an individual had HbA1c ≥6.5% based on measured fasting plasma glucose (FPG), and vice versa. The details of the statistical methods are provided in the citation below. In short, the prediction equations are generalised linear mixed models fitted with package `lme4`. The model objects in this package provide draws of the model coefficients to allow estimation of the uncertainty associated with the prediction equations.
 
 <span style = "background-color:#f3f3f3">NCD Risk Factor Collaboration (NCD-RisC). Global variation in diabetes diagnosis and prevalence based on fasting glucose and hemoglobin A1c. *Nature Medicine* 2023; **29**: 2885-2901.</span>
 
