@@ -46,7 +46,7 @@ Optional covariates for prediction:
   handheld device, 0 = lab based measurement, NA = unknown.
 
 If `iso` is not recognized, provide a string with one of the following
-and name as `Superregion`:
+in a variable named `Superregion`:
 
 - “Central and Eastern Europe”
 - “Central Asia, Middle East and North Africa”
