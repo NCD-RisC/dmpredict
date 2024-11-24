@@ -28,7 +28,8 @@ The users must provide at least one of the following:
 Plus the following required predictors:
 
 - `sex` coded as “female” and “male”.
-- `age` in years.
+- `age` in years (current models have only been tested in adults aged
+  18+ years).
 - `study_id` unique identifier for each study (or study round).
 - `iso` [ISO-3 alpha
   code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) for the
