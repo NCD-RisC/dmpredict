@@ -67,8 +67,6 @@ To install the package, use:
 
 ## Example
 
-See also in [Examples](vignettes/dmpredict.html)
-
 ``` r
 library(dmpredict)
 
