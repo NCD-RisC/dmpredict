@@ -21,6 +21,8 @@ dmpredict is a package written to implement the prediction equations reported in
 
 <span style = "background-color:#f3f3f3">NCD Risk Factor Collaboration (NCD-RisC). Global variation in diabetes diagnosis and prevalence based on fasting glucose and hemoglobin A1c. *Nature Medicine* 2023; **29**: 2885-2901.</span>
 
+## Usage
+
 The users must provide  at least one of the following:
 
 * `fpg_clean` cleaned FPG (mmol/L).
@@ -57,7 +59,9 @@ To install the package, use:
 
 `remotes::install_github("NCD-RisC/dmpredict")`
 
-## Usage
+## Example
+
+See also in [Examples](vignettes/dmpredict.html)
 
 ```{r, eval = FALSE}
 library(dmpredict)
